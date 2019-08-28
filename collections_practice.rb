@@ -20,10 +20,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-	if array.char == 3
-	  array[-1].insert("$")
-	  return array.join(",")
-    end
 end 
 
 
