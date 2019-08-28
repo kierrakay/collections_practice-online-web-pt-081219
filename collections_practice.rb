@@ -25,7 +25,12 @@ def reverse_array(array)
   array.reverse 
 end
 
-def kesha_maker(array)
+def kesha_maker(arr)
+  for i in 0...arr.length
+    arr[i][2] = "$"
+  end
+  arr
+end
 end 
 
 
