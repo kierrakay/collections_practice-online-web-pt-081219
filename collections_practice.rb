@@ -32,7 +32,24 @@ def kesha_maker(array)
   array
 end
 
+def find_a(arr)
+  arr.select do |x|
+    x[0] == "a"
+  end
+end
 
+ def sum_array(array)
+  array.inject(:+)
+end
+
+ def add_s(array)
+  for i in 0...array.length
+    if i != 1
+      array[i] += "s"
+    end
+  end
+  array
+end
 
 
 
