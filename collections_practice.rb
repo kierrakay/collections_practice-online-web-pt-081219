@@ -16,8 +16,8 @@ def swap_elements(array)
 end
 
 #def swap_elements_from_to(arr,x,y)
-  arr[x], arr[y] = arr[y], arr[x]
-  arr
+  #arr[x], arr[y] = arr[y], arr[x]
+#  arr
 #end
 
 
